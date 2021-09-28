@@ -36,3 +36,157 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar {
+  text-align: left;
+  color: white;
+  background-color: rgb(35, 35, 148);
+  font-family: "Roboto";
+  border: 1px solid #56639d;
+  padding-left: 25px;
+}
+
+.home {
+  text-align: left;
+  display: block;
+  margin: auto;
+  border: 2px;
+  width: 25%;
+  border: 1px solid #586082;
+  border-radius: 10px;
+  margin-top: 120px;
+  padding-left: 5px;
+  line-height: 100%;
+  overflow: auto;
+  font-family: "Roboto";
+  font-size: large;
+  position: relative;
+}
+
+.title-text {
+  width: 100%;
+  text-align: left;
+  position: relative;
+  bottom: 10px;
+  color: rgb(63, 63, 138);
+  margin-bottom: 0;
+}
+
+.btn-pos {
+  width: auto;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+.btn-add {
+  position: relative;
+  right: 20px;
+  top: 10px;
+  font-size: 30pt;
+  color: orange;
+}
+.btn-add:hover {
+  cursor: pointer;
+}
+
+.home input[type="text"] {
+  margin-top: 15px;
+  border: 2px solid #e16a0b;
+  border-radius: 5px;
+  width: 95%;
+  height: 25px;
+  position: relative;
+  bottom: 10px;
+  left: 3px;
+}
+.title-home-pos {
+  width: 100%;
+  /* background-color: royalblue; */
+}
+
+.task-remaining {
+  position: relative;
+  width: 100%;
+  font-size: 11pt;
+  top: 5px;
+}
+
+.list-comp {
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+}
+.list-todo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* for the todo */
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 2em;
+}
+
+.todo-div {
+  width: 100%;
+  position: relative;
+  right: 35px;
+  margin-bottom: 10px;
+}
+li.todo {
+  list-style-type: none;
+  list-style-position: outside;
+  position: relative;
+  width: 100%;
+}
+.todo-text {
+  position: relative;
+  left: 5%;
+  width: 100%;
+  font-size: 18px;
+}
+.delete-icon {
+  position: relative;
+  right: 0px;
+  top: 0px;
+  font-size: 18pt;
+  color: rgb(255, 166, 0);
+}
+.delete-icon:hover {
+  cursor: pointer;
+}
+
+.delete {
+  background-image: none;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0%;
+}
+
+.checkbox-round {
+  width: 1.5em;
+  height: 1.5em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.checkbox-round:hover {
+  background-color: orange;
+}
+
+.checkbox-round:checked {
+  background-color: orange;
+}
+
+.checkbox-round:checked + label.strikethrough {
+  text-decoration: line-through;
+  color: #878787;
+}
